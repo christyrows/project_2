@@ -15,3 +15,9 @@ d3.json(url,function(error,json){
 // then it can also save variables with said data and make plots
 // and affix them to map layers on the index.html invocation through
 // the flask app.
+
+//save the data as variables
+
+// call plotly with the data, save the plots
+
+// affix the plots to the map layer or the div? using d3, i think?
