@@ -4,24 +4,6 @@ function createMap() {
     // Map data
     /////////////////////////////////////////////////////////////////////////////////////////////
 
-    //https://api.mapbox.com/{id}.html?title=true&access_token={accessToken}
-    //
-    // /styles/v1/{username}/{style_id}/tiles/{tilesize}/{z}/{x}/{y}{@2x}
-    //
-    //"https://api.mapbox.com/styles/v1/cherngywh/cjfkdlw8x057v2smizo9hqksx/tiles/256/{z}/{x}/{y}?" +"access_token=pk.eyJ1IjoiY2hlcm5neXdoIiwiYSI6ImNqZXZvcGhhYTcxdm4ycm83bjY1bnV3amgifQ.MOA-PIHTOV90Ql8_Tg2bvQ"
-    
-    //"https://api.mapbox.com/styles/v1/billrigg/{id}/tiles/256/{z}/{x}/{y}?access_token={accessToken}"
-
-
-
-    //var lightmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
-    //attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
-    //maxZoom: 18,
-    //id: "light-v10",
-    //accessToken: API_KEY
-    //
-    //
-    ///
     
     var lightMap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
         attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
@@ -77,3 +59,5 @@ function createMap() {
     L.control.layers(baseLayers, overlays).addTo(myMap);
 
 }
+
+createMap();
