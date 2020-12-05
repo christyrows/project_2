@@ -11,3 +11,7 @@ d3.json(url,function(error,json){
     console.log(data);
 })
 
+// if this d3 function can console log the JSON data from the API,
+// then it can also save variables with said data and make plots
+// and affix them to map layers on the index.html invocation through
+// the flask app.
