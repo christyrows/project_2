@@ -76,6 +76,22 @@ def poverty():
     return jsonify(all_pov)
 
     
+################################################################
+##
+##  Ultimately this API route will have the graph or graphs of the 
+##  poverty v education data, as well as the standardized navbar and
+##  format detail in proper order.
+##
+##  It will then return a render template of the education.html
+##  file which will be stored in the templates file.
+##
+##  This pattern must be followed for the other teammates' data.
+##
+##  :  individual.html, in templates folder, 
+##     api route renders template of file
+##
+################################################################
+
 @app.route("/education")
 def education():
     # Create our session (link) from Python to the DB
