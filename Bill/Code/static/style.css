@@ -4,8 +4,18 @@ a.navbar-brand{
     background-color: rgb(155, 219, 219);
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
-  }
+}
+
+.navbar{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-right:40px;
+    background-color:rgb(44, 46, 46);
+}
   
+.nav-item.dropdown.show {
+    background-color: #ddd;
+}
   
   h3{
     color: lightskyblue;
@@ -18,19 +28,6 @@ a.navbar-brand{
     border: solid black;
   }
   
-  
-  
-  
-  p{
-   color:white;
-   font-size: large;
-   padding:10px;
-  }
-  
-  
-  body{
-    background-color: rgb(155, 219, 219);
-  }
   .col-md-12{
     background-color: gray;
     padding-top: 20px;
@@ -42,21 +39,9 @@ a.navbar-brand{
     border: 3px solid rgb(188, 233, 85);
   }
   
-  .navbar{
-    padding-top:0px;
-    padding-bottom: 0px;
-    padding-right:40px;
-    background-color:rgb(44, 46, 46);
-  }
-  
-  .nav-item.dropdown.show {
-    background-color: #ddd;
-  }
-  
   .dropdown-menu {
     margin: 0;
   }
-  
   
   .content {
     padding-top: 50px;
@@ -80,8 +65,3 @@ a.navbar-brand{
         padding:inherit;
     }
   }
-
-
-.bar {
-  fill: red;
-}
