@@ -43,8 +43,11 @@ d3.json(url_edu,function(error,json){
         console.log("-------------------");
 
 
-        //D3 double bar graph code goes in here!
+
+
+
         
+        //D3 double bar graph code goes in here!
         var trace1 = {
             x: states_data,
             y: edu_data,
@@ -65,29 +68,8 @@ d3.json(url_edu,function(error,json){
           
           Plotly.newPlot('myDiv', data, layout);
 
-       /*
-
-    
-
-            */
-
-
-
-
         })
-
     })
-
 })
 
-
-
-// save the plots as fig.png files
-// Have this done by EOD tuesday
-
-//--------------------------------------------
-
-// affix the plots to the map/chart/plot layer or the div? using d3, i think?
-
-// Got to find the index template first, though!
 
