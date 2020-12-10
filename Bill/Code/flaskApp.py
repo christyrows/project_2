@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd 
-import datetime as dt
 import simplejson as json
 
 import sqlalchemy
@@ -77,6 +76,8 @@ def education():
     all_edu = list(np.ravel(results))
 
     return jsonify(all_edu)
+
+
 
 
 if __name__ == "__main__":

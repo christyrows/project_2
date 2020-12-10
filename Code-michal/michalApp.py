@@ -40,45 +40,6 @@ def index():
     
     return render_template("index.html", table=rank_table)
 
-# BILL'S CODE TO CREATE ENDPOINTS
-@app.route("/states")
-def states():
-    # Create our session (link) from Python to the DB
-    session = Session(engine)
-   # Query all passengers
-    results = session.query(povState.state).all()
-    session.close()
-    # Convert list of tuples into normal list
-    all_states = list(np.ravel(results))
-
-    return jsonify(all_states)
-
-#/
-@app.route("/poverty")
-def poverty():
-    # Create our session (link) from Python to the DB
-    session = Session(engine)
-   # Query all passengers
-    results = session.query(povState.pov_rate).all()
-    session.close()
-    # Convert list of tuples into normal list
-    all_pov = list(np.ravel(results))
-
-    return jsonify(all_pov)
-
-
-@app.route("/education")
-def education():
-    # Create our session (link) from Python to the DB
-    session = Session(engine)
-   # Query all passengers
-    results = session.query(eduState.college_per).all()
-    session.close()
-
-    # Convert list of tuples into normal list
-    all_edu = list(np.ravel(results))
-
-    return jsonify(all_edu)
 
 
 @app.route("/food_deserts",methods=["GET","POST"])
