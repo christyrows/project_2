@@ -62,7 +62,7 @@ d3.json("/food_deserts").then(function(foodData) {
         .attr("transform", `translate(${width / 2.9}, ${-30})`)
         .attr("class", "title")
         .attr("font-size", "19px")
-        .text("Percent Living in Food Deserts v. Poverty Rate")
+        .text("Food Availability v. Poverty")
 
 
     // Draw the markers and plot them by their x and y coordinates
@@ -162,7 +162,7 @@ d3.json("/combined_data").then(function(d) {
         stateArray.push(state)
         pov_data.push(pov_rate)
         edu_data.push(edu_rate)
-        crime_data.push(vio_rate)
+        crime_data.push(vio_rate * 10)
 
     }
 
@@ -185,7 +185,7 @@ d3.json("/combined_data").then(function(d) {
     var data = [trace1, trace2];
 
     var layout = {
-        title: "College Graduation v. Poverty Rate",
+        title: "College Graduation v. Poverty",
         barmode: 'group',
         showlegend: true,
         legend: {
@@ -195,27 +195,44 @@ d3.json("/combined_data").then(function(d) {
         }
     }
 
-    Plotly.newPlot('educationChart', data, layout);
+    var educ_img = d3.select('#png-export')
+    url = "../images/educ_img.png"
+    Plotly.newPlot('educationChart', data, layout)
+
+    educ_img.attr("src", url);
+    Plotly.toImage(educ_img, { height: 300, width: 300 })
+
+
+
+
 
     // Plotly crime rate chart:
 
     var trace1 = {
         x: stateArray,
         y: crime_data,
-        name: 'State Crime',
+        name: 'Violent Crime',
         type: 'line'
     }
     var trace2 = {
         x: stateArray,
         y: pov_data,
-        name: 'State Poverty',
+        name: 'Poverty',
+        yaxis: 'y2',
         type: 'line',
     }
     var data = [trace1, trace2];
 
     var layout = {
-        title: "Violent Crime Rate v. Poverty Rate",
-        yaxis: { title: "Rates of Violent Crime and Poverty" },
+        title: "Violent Crime v. Poverty",
+        yaxis: { title: "Violent Crime Rate" },
+        yaxis2: {
+            title: "Poverty Rate",
+            titlefont: { color: 'rgb(148, 103, 189)' },
+            tickfont: { color: 'rgb(148, 103, 189)' },
+            overlaying: 'y',
+            side: 'right'
+        },
         legend: {
             x: 1,
             xanchor: 'right',
