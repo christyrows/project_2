@@ -33,6 +33,4 @@ def scrape():
     
 scrape()
 
-# healthRankTable = df_health_rank.to_html(index=False)
-# return healthRankTable
 

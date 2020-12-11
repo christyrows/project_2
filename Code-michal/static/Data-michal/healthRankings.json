@@ -1,0 +1,604 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-86.902298, 32.31823]
+            },
+            "properties": {
+                "State": "Alabama",
+                "Rank": 47,
+                "Value": -0.82
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-153.369141, 66.160507]
+            },
+            "properties": {
+                "State": "Alaska",
+                "Rank": 27,
+                "Value": 0.074
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-111.093735, 34.048927]
+            },
+            "properties": {
+                "State": "Arizona",
+                "Rank": 31,
+                "Value": -0.148
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-92.199997, 34.799999]
+            },
+            "properties": {
+                "State": "Arkansas",
+                "Rank": 48,
+                "Value": -0.836
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-119.417931, 36.778259]
+            },
+            "properties": {
+                "State": "California",
+                "Rank": 12,
+                "Value": 0.398
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-105.358887, 39.113014]
+            },
+            "properties": {
+                "State": "Colorado",
+                "Rank": 10,
+                "Value": 0.537
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-72.699997, 41.599998]
+            },
+            "properties": {
+                "State": "Connecticut",
+                "Rank": 4,
+                "Value": 0.734
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75.5, 39]
+            },
+            "properties": {
+                "State": "Delaware",
+                "Rank": 30,
+                "Value": -0.088
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-81.760254, 27.994402]
+            },
+            "properties": {
+                "State": "Florida",
+                "Rank": 33,
+                "Value": -0.213
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-83.441162, 33.247875]
+            },
+            "properties": {
+                "State": "Georgia",
+                "Rank": 40,
+                "Value": -0.447
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-155.844437, 19.741755]
+            },
+            "properties": {
+                "State": "Hawaii",
+                "Rank": 3,
+                "Value": 0.84
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-114.742043, 44.068203]
+            },
+            "properties": {
+                "State": "Idaho",
+                "Rank": 16,
+                "Value": 0.333
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89, 40]
+            },
+            "properties": {
+                "State": "Illinois",
+                "Rank": 26,
+                "Value": 0.094
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-86.126976, 40.273502]
+            },
+            "properties": {
+                "State": "Indiana",
+                "Rank": 41,
+                "Value": -0.493
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-93.581543, 42.032974]
+            },
+            "properties": {
+                "State": "Iowa",
+                "Rank": 20,
+                "Value": 0.289
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-98, 38.5]
+            },
+            "properties": {
+                "State": "Kansas",
+                "Rank": 29,
+                "Value": -0.021
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-84.27002, 37.839333]
+            },
+            "properties": {
+                "State": "Kentucky",
+                "Rank": 43,
+                "Value": -0.609
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-92.329102, 30.39183]
+            },
+            "properties": {
+                "State": "Louisiana",
+                "Rank": 49,
+                "Value": -0.912
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-68.972168, 45.367584]
+            },
+            "properties": {
+                "State": "Maine",
+                "Rank": 21,
+                "Value": 0.248
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-76.641273, 39.045753]
+            },
+            "properties": {
+                "State": "Maryland",
+                "Rank": 18,
+                "Value": 0.312
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-71.382439, 42.407211]
+            },
+            "properties": {
+                "State": "Massachusetts",
+                "Rank": 2,
+                "Value": 0.848
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-84.506836, 44.182205]
+            },
+            "properties": {
+                "State": "Michigan",
+                "Rank": 32,
+                "Value": -0.209
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-94.63623, 46.39241]
+            },
+            "properties": {
+                "State": "Minnesota",
+                "Rank": 7,
+                "Value": 0.571
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-90, 33]
+            },
+            "properties": {
+                "State": "Mississippi",
+                "Rank": 50,
+                "Value": -1.005
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-92.60376, 38.573936]
+            },
+            "properties": {
+                "State": "Missouri",
+                "Rank": 39,
+                "Value": -0.413
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-109.533691, 46.96526]
+            },
+            "properties": {
+                "State": "Montana",
+                "Rank": 24,
+                "Value": 0.202
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-100, 41.5]
+            },
+            "properties": {
+                "State": "Nebraska",
+                "Rank": 17,
+                "Value": 0.321
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-117.224121, 39.876019]
+            },
+            "properties": {
+                "State": "Nevada",
+                "Rank": 35,
+                "Value": -0.256
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-71.5, 44]
+            },
+            "properties": {
+                "State": "New Hampshire",
+                "Rank": 6,
+                "Value": 0.605
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-74.871826, 39.833851]
+            },
+            "properties": {
+                "State": "New Jersey",
+                "Rank": 8,
+                "Value": 0.553
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-106.018066, 34.307144]
+            },
+            "properties": {
+                "State": "New Mexico",
+                "Rank": 37,
+                "Value": -0.266
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-75, 43]
+            },
+            "properties": {
+                "State": "New York",
+                "Rank": 11,
+                "Value": 0.512
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-80.793457, 35.782169]
+            },
+            "properties": {
+                "State": "North Carolina",
+                "Rank": 36,
+                "Value": -0.263
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-100.437012, 47.650589]
+            },
+            "properties": {
+                "State": "North Dakota",
+                "Rank": 14,
+                "Value": 0.371
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-82.996216, 40.367474]
+            },
+            "properties": {
+                "State": "Ohio",
+                "Rank": 38,
+                "Value": -0.401
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-96.921387, 36.084621]
+            },
+            "properties": {
+                "State": "Oklahoma",
+                "Rank": 46,
+                "Value": -0.777
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-120.5, 44]
+            },
+            "properties": {
+                "State": "Oregon",
+                "Rank": 22,
+                "Value": 0.232
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-77.194527, 41.203323]
+            },
+            "properties": {
+                "State": "Pennsylvania",
+                "Rank": 28,
+                "Value": 0.002
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-71.5, 41.700001]
+            },
+            "properties": {
+                "State": "Rhode Island",
+                "Rank": 13,
+                "Value": 0.378
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-81.163727, 33.836082]
+            },
+            "properties": {
+                "State": "South Carolina",
+                "Rank": 42,
+                "Value": -0.595
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-100, 44.5]
+            },
+            "properties": {
+                "State": "South Dakota",
+                "Rank": 25,
+                "Value": 0.149
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-86.660156, 35.860119]
+            },
+            "properties": {
+                "State": "Tennessee",
+                "Rank": 44,
+                "Value": -0.641
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-100, 31]
+            },
+            "properties": {
+                "State": "Texas",
+                "Rank": 34,
+                "Value": -0.244
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-111.950684, 39.41922]
+            },
+            "properties": {
+                "State": "Utah",
+                "Rank": 5,
+                "Value": 0.628
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-72.699997, 44]
+            },
+            "properties": {
+                "State": "Vermont",
+                "Rank": 1,
+                "Value": 0.85
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-78.024902, 37.926868]
+            },
+            "properties": {
+                "State": "Virginia",
+                "Rank": 15,
+                "Value": 0.349
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-120.740135, 47.751076]
+            },
+            "properties": {
+                "State": "Washington",
+                "Rank": 9,
+                "Value": 0.54
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-80.5, 39]
+            },
+            "properties": {
+                "State": "West Virginia",
+                "Rank": 45,
+                "Value": -0.657
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-89.5, 44.5]
+            },
+            "properties": {
+                "State": "Wisconsin",
+                "Rank": 23,
+                "Value": 0.203
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-107.290283, 43.07597]
+            },
+            "properties": {
+                "State": "Wyoming",
+                "Rank": 19,
+                "Value": 0.298
+            }
+        }
+    ]
+}
