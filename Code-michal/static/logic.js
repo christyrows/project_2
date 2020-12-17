@@ -129,7 +129,7 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     maxZoom: 18,
     zoomOffset: -1,
     id: "mapbox/outdoors-v11",
-    accessToken: mapbox_token
+    accessToken: "pk.eyJ1IjoibWZpbmVtYW4iLCJhIjoiY2tpc3pxM29vMHk3dzJ6b3o1OGl2c3N0aSJ9.c48ksBNPsYVcz9wX9eWZ0A"
 }).addTo(myMap);
 
 d3.json("/map_data").then(function(d) {
